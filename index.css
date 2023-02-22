@@ -1,0 +1,449 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* For background image */
+
+#img-front-page {
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0px;
+    width: 81vw;
+    height: 64rem;
+}
+
+/* for lines */
+.lines div:nth-child(1),
+.lines div:nth-child(2) {
+    position: relative;
+    width: 95.8%;
+    margin: 10px 80px;
+    background-color: white;
+    padding: 5px 5px;
+}
+
+.lines div:nth-child(2) {
+    width: 10%;
+}
+
+/* orange */
+
+.main-container {
+    position: relative;
+    width: 97vw;
+}
+
+/* header text */
+
+#header-txt .logo {
+    color: white;
+    display: flex;
+    align-items: baseline;
+}
+
+#header-txt .logo h1 {
+    font-size: 11rem;
+    font-weight: 700;
+    margin-left: 4.5rem;
+    margin-top: -2rem;
+}
+
+#header-txt .context {
+    color: white;
+    font-weight: 500;
+    padding: 0rem 8rem;
+    width: 67rem;
+}
+
+#header-txt .context p {
+    font-size: 1.3rem;
+}
+
+#header-txt .logo p {
+    position: relative;
+    top: 17px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#images-group {
+    margin-top: 11rem;
+    margin-left: 6rem;
+    width: 48rem;
+}
+
+#images-group img {
+    width: 8rem;
+    margin: 0rem 0rem;
+}
+
+.trends {
+    margin-top: 0rem;
+    /* padding: 0% 52%; */
+    margin-left: 16rem;
+}
+
+.trends h1 {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    width: fit-content;
+    font-size: 5rem;
+    color: white;
+    font-weight: 700;
+    border: 7px solid white;
+    background-color: rgba(255, 94, 0, 0.541);
+}
+
+/* orange div */
+#orange
+{
+    z-index: -1;
+    background: rgba(255, 94, 0, 0.541);
+    position: absolute;
+    top: -10px;
+    height: 188vh;
+    width: 69vw;
+    left: 3rem;
+}
+#business
+{
+    font-size: 14rem;
+    margin-left: 8rem;
+    color: white;
+}
+#flyer
+{
+    font-size: 7rem;
+    margin-left: 8.6rem;
+    margin-top: -3.4rem;
+    font-weight: 100;
+    color: white;
+}
+#creative
+{
+    font-size: 2.7rem;
+    color: white;
+    margin-left: 9rem;
+    margin-top: -1rem;
+    font-weight: 400;
+}
+
+/* cyan section */
+#cyan
+{
+    background: rgb(109 216 209 / 50%);;
+    height: 217vh;
+    width: 50vw;
+    z-index: -1;
+    position: absolute;
+    top: 38rem;
+    right: -1.5rem;
+}
+
+#cyan-sec-block {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 40%, rgba(1, 255, 234, 0.692) 40%, rgba(1, 255, 234, 0.425) 100%);
+    position: absolute;
+    top: 40rem;
+    width: 100%;
+    margin-left: 10px;
+    border-left: 10px solid white;
+    padding: 1rem 2rem;
+}
+
+#cyan-sec-block .cyan-header {
+    color: white;
+}
+
+#cyan-sec-block .cyan-header h1 {
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 12rem;
+    font-weight: 800;
+    line-height: 8rem;
+}
+
+#cyan-sec-block .cyan-header h2 {
+    font-size: 7rem;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+
+#cyan-sec-block .cyan-header h5 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding-left: 15px;
+}
+
+.block-cyan {
+    width: 100vw;
+}
+
+#txtOftheCyan h1 {
+    font-size: 10rem;
+}
+
+#header {
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: white;
+}
+
+#txtOftheCyan {
+    position: relative;
+    top: 0px;
+    color: white;
+    text-align: right;
+    font-size: 1.1+rem;
+}
+
+.address {
+    margin-top: 5rem;
+    margin-left: 9rem;
+}
+
+.address h6 {
+    margin: 10px 0px 62px 1px;
+    color: white;
+    font-size: 2rem;
+}
+
+.address h6 i {
+    color: white;
+    margin: 0px 10px 0px 0px;
+}
+
+#icons {
+    color: white;
+    width: 35vw;
+    border-top: 5px solid rgba(85,132,124,255);   
+    margin-left: 7rem;
+    margin-top: -1rem;
+    padding-top: 4rem;
+}
+
+#icons i {
+    font-size: 6rem;
+}
+
+#Sitelogo {
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding-left: 4rem;
+}
+#vdiv
+{
+    padding-top: 1rem;
+    width: 1vw;
+    background: white;
+    position: absolute;
+    left: 6rem;
+    top: 4.4rem;
+    height: 209vh;
+}
+.gra
+{
+    font-size: 3rem;
+    line-height: 4.3rem;
+}
+.txt
+{
+    margin-top: 18rem;
+    color: white;
+    margin-left: 9rem;
+}
+#ah1
+{
+    font-size: 15rem;
+    margin-top: -1.2rem;
+    margin-left: 26rem;
+    color: white;
+    font-weight: bold;
+}
+#cyan-p
+{
+    width: 35vw;
+    font-size: 2rem;
+    text-align: justify;
+    direction: rtl;
+    margin-left: 7rem;
+    border-bottom: 5px solid rgba(119,175,172,255);;
+    padding-bottom: 5rem;
+    color: white;
+}
+
+@media screen and (min-width:2500px) 
+{
+    #img-front-page {
+        position: absolute;
+        z-index: -1;
+        top: 0px;
+        right: 0px;
+        width: 81vw;
+        height: 129rem;
+    }
+    .lines div:nth-child(1) {
+    position: relative;
+    width: 95.8%;
+    margin: 17px 184px;
+    background-color: white;
+    padding: 9px 5px;
+    }
+    .lines div:nth-child(2) {
+        position: relative;
+        width: 9.8%;
+        margin: 17px 184px;
+        background-color: white;
+        padding: 9px 5px;
+    }
+    #header-txt .logo h1 {
+        font-size: 20rem;
+        font-weight: 700;
+        margin-left: 10.5rem;
+        margin-top: -2rem;
+    }
+    #header-txt .logo p {
+        position: relative;
+        top: 42px;
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+    #header-txt .context {
+        color: white;
+        font-weight: 500;
+        padding: 0rem 18rem;
+        width: 122rem;
+    }
+    #header-txt .context p {
+        font-size: 2.6rem;
+    }
+    #images-group {
+        margin-top: 11rem;
+        margin-left: 16rem;
+        width: 89rem;
+    }
+    #images-group img {
+        width: 22rem;
+        margin: 0rem 0rem;
+    }
+    .trends {
+        margin-top: 3rem;
+        margin-left: 36rem;
+    }
+    .trends h1 {
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        width: fit-content;
+        font-size: 8rem;
+        color: white;
+        font-weight: 700;
+        border: 7px solid white;
+        background-color: rgba(255, 94, 0, 0.541);
+    }
+    #business {
+        font-size: 27rem;
+        margin-left: 18rem;
+        color: white;
+    }
+    #flyer {
+        font-size: 19rem;
+        margin-left: 19.6rem;
+        margin-top: -3.4rem;
+        font-weight: 100;
+        color: white;
+    }
+    #creative {
+        font-size: 5.7rem;
+        color: white;
+        margin-left: 21rem;
+        margin-top: -1rem;
+        font-weight: 400;
+    }
+    #vdiv {
+        padding-top: 1rem;
+        width: 1vw;
+        background: white;
+        position: absolute;
+        left: 14rem;
+        top: 4.4rem;
+        height: 244vh;
+    }
+    #orange {
+        z-index: -1;
+        background: rgba(255, 94, 0, 0.541);
+        position: absolute;
+        top: -10px;
+        height: 225vh;
+        width: 68vw;
+        left: 7rem;
+    }
+    #ah1 {
+        font-size: 22rem;
+        margin-top: 6.8rem;
+        margin-left: 56rem;
+        color: white;
+        font-weight: bold;
+    }
+    #cyan-p {
+        width: 36vw;
+        font-size: 4rem;
+        text-align: justify;
+        direction: rtl;
+        margin-left: 14rem;
+        border-bottom: 5px solid rgba(119,175,172,255);
+        padding-bottom: 5rem;
+        color: white;
+        line-height: 5rem;
+    }
+    #icons {
+        color: white;
+        width: 36vw;
+        border-top: 5px solid rgba(85,132,124,255);
+        margin-left: 14rem;
+        margin-top: -1rem;
+        padding-top: 6rem;
+    }
+    #icons i {
+        font-size: 9rem;
+    }
+    #Sitelogo {
+        color: white;
+        margin-top: 3rem;
+        font-size: 5.5rem;
+        padding-left: 8rem;
+    }
+    #cyan {
+        background: rgb(109 216 209 / 50%);
+        height: 290vh;
+        width: 50vw;
+        z-index: -1;
+        position: absolute;
+        top: 38rem;
+        right: -1.5rem;
+    }
+    .txt {
+        margin-top: 34rem;
+        color: white;
+        margin-left: 18rem;
+    }
+    .gra {
+        font-size: 6rem;
+        line-height: 8.3rem;
+    }
+    .address h6 {
+        margin: 10px 0px 62px 1px;
+        color: white;
+        font-size: 4rem;
+    }
+    .address {
+        margin-top: 4rem;
+        margin-left: 18rem;
+    }
+}
+
+
+
